@@ -10,16 +10,17 @@
         <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon"/>
         <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon"/>
         <script src="https://cdn.tailwindcss.com/"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     </head>     
-    <body class="font-sans">
+    <body class="font-sans" style="font-family: 'Roboto', sans-serif;">
         <div class="relative lg:bg-gray-800 lg:flex lg:h-screen lg:items-center lg:justify-center lg:justify-items-center lg:w-screen">
-            <div class="absolute bg-gray-50 flex flex-col h-auto justify-between w-full lg:bg-gray-50 lg:flex-row-reverse lg:max-w-4xl lg:p-6 lg:rounded-3xl lg:shadow-xl">
+            <div class="absolute bg-gray-50 flex flex-col h-auto justify-between w-full lg:bg-gray-50 lg:flex-row-reverse lg:h-auto lg:max-w-4xl lg:p-6 lg:rounded-3xl lg:shadow-xl">
                 <div class="w-full lg:w-5/12">
                     <img src="img/illustration-sign-up-mobile.svg" alt="signup-image" class="w-full lg:hidden">
-                    <img src="img/illustration-sign-up-desktop.svg" alt="signup-image" class="hidden w-full lg:block">
+                    <img src="img/illustration-sign-up-desktop.svg" alt="signup-image" class="h-full hidden object-cover w-full lg:block lg:rounded-2xl">
                 </div>
-                <div class="flex flex-col gap-6 items-stretch justify-center justify-items-center justify-self-center pl-8 place-content-center place-items-center pr-10 py-10 lg:bg-gray-50 lg:gap-0 lg:h-auto lg:pr-12 lg:py-0 lg:w-7/12">
-                    <h1 class="font-bold text-5xl text-gray-800 lg:mb-7">Stay updated!</h1>
+                <div class="flex flex-col gap-6 items-stretch justify-center justify-items-center justify-self-center place-content-center place-items-center px-5 py-10 lg:bg-gray-50 lg:gap-0 lg:h-auto lg:pl-10 lg:pr-16 lg:w-7/12">
+                    <h1 class="font-bold text-4xl text-gray-800 lg:mb-7 lg:text-5xl">Stay updated!</h1>
                     <p class="font-medium leading-7 text-gray-800 text-lg lg:mb-6">Join 60,000+ product managers receiving monthly updates on:</p>
                     <div class="flex flex-col gap-4 mb-4 lg:gap-2 lg:mb-7">
                         <ul class="inline-block">
@@ -44,7 +45,7 @@
                             <label class="font-bold hidden text-sm text-yellow-600">Valid email required</label>
                         </div>
                         <input type="email" name="email" placeholder="email@company.com" required="true" class="bg-transparent border border-gray-800 border-opacity-25 border-solid cursor-pointer duration-300 ease-in-out focus:border-gray-800 focus:rounded-lg mb-5 outline-none p-4 rounded-lg transition-all">
-                        <button class="bg-gray-800 duration-300 ease-in-out font-semibold hover:bg-yellow-700 p-4 rounded-lg text-white transition-all">Subscribe to monthly newsletter</button>
+                        <button class="bg-gray-800 duration-300 ease-in-out hover:bg-yellow-700 p-4 rounded-lg text-white transition-all">Subscribe to monthly newsletter</button>
                     </form>
                     <div class="attribution"> 
                         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-blue-700">Frontend Mentor</a>. 
