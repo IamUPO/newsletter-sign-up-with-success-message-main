@@ -13,7 +13,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## View Live
 
-You can view the live version of this project on GitHub Pages: [Blog preview](https://iamupo.github.io/newsletter-sign-up-with-success-message-main/)
+You can view the live version of this project on GitHub Pages: [Newsletter sign-up form with success message](https://iamupo.github.io/newsletter-sign-up-with-success-message-main/)
 
 ## Connect with Me
 
